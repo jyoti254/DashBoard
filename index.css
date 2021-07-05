@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  z-index: -100;
+  text-align: center;
+}
+
+.sidebar {
+  float: left;
+  height: 100%;
+  min-width: 80px;
+  width: 8%;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px #c7c0c0;
+}
+.logo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main,
+.sidebar-right {
+  min-height: 600px;
+}
+.sidebarChildContainer {
+  margin-top: 20px;
+}
+.sidebarOption {
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+.sidebarOption_active {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+}
+.selectedBorder {
+  height: 100%;
+  width: 25px;
+  background-color: blue;
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Icons {
+  width: 50%;
+}
+.main {
+  width: 100%;
+  background-color: rgb(242, 246, 247);
+  padding: 20px;
+}
+.video {
+  width: 4rem;
+  display: flex;
+  margin-left: 110px;
+}
+.play_button {
+  transform: rotate(180deg);
+}
+.video h4 {
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+
+.main .video img {
+  width: 14px;
+  height: 14px;
+}
+.center_div {
+  margin-left: 200px;
+  margin-top: 60px;
+  width: 70%;
+}
+.center_div input {
+  width: 100%;
+  height: 2rem;
+  border-radius: 6px;
+  outline: none;
+  border-color: transparent;
+  background-color: white;
+  padding-left: 10px;
+}
+.center_div p {
+  padding-top: 14px;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  font-weight: bolder;
+}
+.center_div button {
+  margin-top: 2rem;
+  width: 8rem;
+  height: 140px;
+  outline: none;
+  border-color: transparent;
+  background-color: white;
+  font-weight: bolder;
+}
